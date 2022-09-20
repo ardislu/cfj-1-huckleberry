@@ -9,4 +9,39 @@ body {
   padding: 0;
 }
 
-/* Add styles here! */
+header, .card {
+  inline-size: min(720px, 100% - 32px);
+  margin-inline: auto;
+  margin-block: 32px;
+}
+
+strong {
+  color: seagreen;
+}
+
+.intro-chunk {
+  max-inline-size: min(100%, 360px);
+}
+
+main {
+  background: lightgray;
+  padding-block: 64px;
+  border-block-start: 8px solid grey;
+}
+
+.card {
+  box-sizing: content-box;
+  background: white;
+  padding: 16px;
+  border-block-end: 8px solid grey;
+}
+
+.indented-heading {
+  box-sizing: content-box;
+  background-color: gold;
+  max-width: fit-content;
+  padding: 16px 24px;
+  border-block-end: 8px solid darkgoldenrod;
+  margin-block-start: -8px;
+  margin-inline-start: -24px;
+}
